@@ -60,17 +60,17 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md border-b border-slate-200/50 sticky top-0 z-50">
+      <header className="bg-black/90 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               TechBlog
             </h1>
             <nav className="hidden md:flex space-x-8">
-              <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">Home</a>
-              <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">Categories</a>
-              <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">About</a>
-              <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">Contact</a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">Home</a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">Categories</a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">About</a>
+              <a href="#" className="text-gray-300 hover:text-white transition-colors">Contact</a>
             </nav>
           </div>
         </div>
